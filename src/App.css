@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuentes */
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url(./assets/fonts/LexendDeca-VariableFont_wght.ttf) format('ttf-variations');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Itim";
+  src: url(./assets/fonts/Itim-Regular.ttf);
+  font-weight: 400;
+}
+
+body{
+  font-family: 'Lexend Deca',sans-serif;
+}

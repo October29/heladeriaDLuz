@@ -1,0 +1,166 @@
+.navbar {
+  width: 100%;
+  padding: 1rem 5%;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+.itemsContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+  width: 100%;
+}
+
+.home {
+  grid-column: 1;
+  grid-row: 2;
+
+}
+
+.menu {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.contact {
+  grid-column: 6;
+  grid-row: 2;
+}
+
+.aboutUs {
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.item {
+  width: 10rem;
+  padding: 1rem 1.3rem;
+  border: #c22942 3px solid;
+  border-radius: 2rem;
+
+  font-family: 'Itim';
+  font-size: 1.3rem;
+  text-align: center;
+  list-style: none;
+
+  box-shadow: #c22942 0 5px 0px;
+  background-color: #ffd3aa;
+
+  transition: all ease-in-out 0.1s;
+  user-select: none;
+}
+
+.item:hover {
+  transform: translateY(3px);
+  box-shadow: #c22942 0 2px 0px;
+  background-color: #ffe7c7;
+  color: #c22942;
+  cursor: pointer;
+}
+
+.item:active {
+  transform: scale(99%) translateY(5px);
+}
+
+@media screen and (max-width: 959px) {
+.navbar {
+  width: fit-content;
+  margin: 0 80% 0 10%;
+}
+
+.hamburgerMenuContainer {
+  position: absolute;
+  top: -2%;
+  left: 5%;
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  background-image: url(../../assets/cartel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  .hamburgerMenu {
+    display: block;
+    margin: 3.6rem auto;
+    color: white;
+  }
+
+.itemsContainer {
+  position: absolute;
+  top: 50%;
+  left: -80%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 1.5rem;
+  width: fit-content;
+
+  background-image: url(../../assets/paleta.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all ease-in-out 0.4s;
+}
+
+.show {
+  left:2%;
+}
+
+.home {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 0.7rem;
+}
+
+.menu {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.contact {
+  grid-column: 1;
+  grid-row: 4;
+  margin-top: -1.7rem;
+}
+
+.aboutUs {
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: -0.6rem;
+}
+
+.item {
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  border: none;
+  border-radius: none;
+
+  font-family: 'Itim';
+  font-size: 1.2rem;
+  text-align: center;
+  list-style: none;
+  color: #ffffff;
+
+  box-shadow: none;
+  background-color: transparent;
+
+  transition: all ease-in-out 0.1s;
+  user-select: none;
+}
+
+.item:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+  color: #fffbc5;
+  background-color: transparent;
+}
+
+.item:active {
+  transform: scale(99%) translateY(5px);
+}
+}

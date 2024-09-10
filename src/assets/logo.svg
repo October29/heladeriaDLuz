@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="305.14197"
+   height="305.14197"
+   viewBox="0 0 80.735477 80.735479"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1"
+     transform="matrix(0.39020094,0,0,0.39020094,-38.042802,-135.20006)">
+    <circle
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="path1"
+       cx="200.94917"
+       cy="449.94202"
+       r="103.45373" />
+    <circle
+       style="fill:none;stroke:#d42aff;stroke-width:4.73207;stroke-dasharray:none"
+       id="path1-5"
+       cx="200.94917"
+       cy="449.94202"
+       r="91.536179" />
+    <text
+       xml:space="preserve"
+       style="font-size:30.0855px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans, Normal';fill:#c83771;stroke-width:0.264583"
+       x="167.47903"
+       y="460.56219"
+       id="text1"><tspan
+         id="tspan1"
+         style="fill:#c83771;stroke-width:0.264583"
+         x="167.47903"
+         y="460.56219">D'luz</tspan></text>
+  </g>
+</svg>
