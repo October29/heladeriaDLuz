@@ -46,7 +46,8 @@
   font-family: 'Itim';
   font-size: 1.3rem;
   text-align: center;
-  list-style: none;
+  text-decoration: none;
+  color: #c22942;
 
   box-shadow: #c22942 0 5px 0px;
   background-color: #ffd3aa;
@@ -75,7 +76,7 @@
 
 .hamburgerMenuContainer {
   position: absolute;
-  top: -2%;
+  top: -20%;
   left: 5%;
   width: 6rem;
   height: 6rem;
@@ -84,7 +85,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-filter: drop-shadow(5px 5px 0px #220d0d48);
+  animation: cartelMove 6s ease-in-out infinite;
+  transform-origin: 50% 0%;
 }
+
 
   .hamburgerMenu {
     display: block;
@@ -92,6 +96,25 @@
     margin: 2.7rem auto 0;
     padding: 0 1rem 0 0;
     color: white;
+    transition: all 0.2s;
+  }
+
+  .hamburgerMenu:hover {
+    color: #ffe054;
+  }
+
+  @keyframes cartelMove {
+    0% {
+      transform: rotate(5deg);
+    }
+
+    50% {
+      transform: rotate(-5deg);
+    }
+
+    100% {
+      transform: rotate(5deg);
+    }
   }
 
 .itemsContainer {

@@ -4,6 +4,7 @@
   justify-content: center;
   width: 100%;
   height: fit-content;
+  background-color: #ffd8cf;
 }
 
 .fondoHeader {
@@ -20,7 +21,7 @@
 .logo {
   position: absolute;
   height: fit-content;
-  height: 70%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -36,6 +37,6 @@
   }
 
   .logo {
-    height: 80%;
+    height: 90%;
   }
 }

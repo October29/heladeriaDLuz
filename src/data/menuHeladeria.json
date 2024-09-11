@@ -1,0 +1,276 @@
+[
+    {
+      "id": "h1",
+      "nombre": "Helado de Vainilla Clásico",
+      "precio": 5000,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Vainilla natural"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h2",
+      "nombre": "Chocolate Intenso",
+      "precio": 5500,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Cacao en polvo",
+        "Chocolate negro"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h3",
+      "nombre": "Fresa Silvestre",
+      "precio": 5500,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Fresas frescas",
+        "Puré de fresa"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h4",
+      "nombre": "Menta Chocolate Chip",
+      "precio": 6000,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Esencia de menta",
+        "Chispas de chocolate"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h5",
+      "nombre": "Cookies and Cream",
+      "precio": 5800,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Galletas de chocolate trituradas"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h6",
+      "nombre": "Pistacho Cremoso",
+      "precio": 6500,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Pasta de pistacho",
+        "Pistachos picados"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h7",
+      "nombre": "Dulce de Leche",
+      "precio": 6000,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Dulce de leche"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h8",
+      "nombre": "Mora Azul",
+      "precio": 5800,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Moras azules frescas",
+        "Puré de mora"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h9",
+      "nombre": "Mango Tropical",
+      "precio": 5800,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Pulpa de mango",
+        "Trozos de mango"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h10",
+      "nombre": "Nuez Pecana Caramelizada",
+      "precio": 6500,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Nueces pecanas caramelizadas"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h11",
+      "nombre": "Tiramisú",
+      "precio": 6500,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Café expreso",
+        "Cacao en polvo",
+        "Bizcochos"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h12",
+      "nombre": "Banana Split",
+      "precio": 6000,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Puré de plátano",
+        "Trozos de plátano"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h13",
+      "nombre": "Coco Tropical",
+      "precio": 6000,
+      "ingredientes": [
+        "Leche de coco",
+        "Crema de coco",
+        "Azúcar",
+        "Coco rallado tostado"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h14",
+      "nombre": "Frutos del Bosque",
+      "precio": 6200,
+      "ingredientes": [
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Mezcla de frutos rojos",
+        "Puré de frutos rojos"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "h15",
+      "nombre": "Limón al Estilo Italiano",
+      "precio": 5500,
+      "ingredientes": [
+        "Agua",
+        "Azúcar",
+        "Jugo de limón",
+        "Ralladura de limón"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Helados"
+    },
+    {
+      "id": "m1",
+      "nombre": "Malteada de Vainilla Clásica",
+      "precio": 8000,
+      "ingredientes": [
+        "Helado de vainilla",
+        "Leche",
+        "Crema batida",
+        "Cereza"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Malteadas"
+    },
+    {
+      "id": "m2",
+      "nombre": "Malteada de Chocolate Suprema",
+      "precio": 8500,
+      "ingredientes": [
+        "Helado de chocolate",
+        "Leche",
+        "Crema batida",
+        "Jarabe de chocolate",
+        "Chispas de chocolate"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Malteadas"
+    },
+    {
+      "id": "m3",
+      "nombre": "Malteada de Fresa Fresca",
+      "precio": 8500,
+      "ingredientes": [
+        "Helado de fresa",
+        "Leche",
+        "Crema batida",
+        "Fresas frescas",
+        "Jarabe de fresa"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Malteadas"
+    },
+    {
+      "id": "m4",
+      "nombre": "Malteada de Café Mocha",
+      "precio": 9000,
+      "ingredientes": [
+        "Helado de café",
+        "Leche",
+        "Crema batida",
+        "Jarabe de mocha",
+        "Espresso"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Malteadas"
+    },
+    {
+      "id": "m5",
+      "nombre": "Malteada de Oreo",
+      "precio": 9000,
+      "ingredientes": [
+        "Helado de vainilla",
+        "Leche",
+        "Crema batida",
+        "Galletas Oreo trituradas",
+        "Jarabe de chocolate"
+      ],
+      "imagen": "https://image.freepik.com/foto-gratis/cono-helado-chocolate-cobertura-marron_250435-33.jpg",
+      "categoria": "Malteadas"
+    }
+  ]

@@ -1,11 +1,10 @@
 .bannerImage {
   width: 100%;
-  margin-top: -27px;
 }
 
 @media screen and (max-width: 770px) {
   .bannerImage{
-    padding: 20px;
-    background-color: rgb(255, 216, 207);
+    padding: 10px 0;
+    background-color: #ffd8cf;
   }
 }

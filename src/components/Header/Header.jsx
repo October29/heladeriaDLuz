@@ -1,17 +1,15 @@
 import React from "react";
 import style from "./Header.module.css"
 import logo from "../../assets/logo.svg"
-import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
-const Header = () => {
+const Header = ({isMenuOpen, setIsMenuOpen}) => {
 
   return(
     <header className={style.header}>
       <div className={style.fondoHeader}>
-        <Navbar />
+        <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
         <img className={style.logo} src={logo} alt="Heladeria D'luz Logo" />
       </div>
-      <Banner className={style.mainBanner}/>
     </header>
   )
 };
