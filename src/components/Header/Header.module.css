@@ -1,22 +1,19 @@
 
 
 .header {
-  position: relative;
-  display: flex;
   justify-content: center;
   width: 100%;
-  height: 14rem;
+  height: fit-content;
 }
 
 .fondoHeader {
-  position: absolute;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: fit-content;
   padding: 1rem 0;
   background-image: url(../../assets/toldo.svg);
-  background-position: 0% 22.5%;
+  background-position: bottom;
   -webkit-filter: drop-shadow(5px 5px 0px #220d0d27);
 }
 
@@ -28,6 +25,17 @@
 }
 
 .mainBanner {
-  position: absolute;
   width: 100%;
+}
+
+@media screen and (max-width: 959px) {
+  .fondoHeader {
+    height: 100px;
+    background-position: bottom;
+    background-size: 200%;
+  }
+
+  .logo {
+    height: 80%;
+  }
 }

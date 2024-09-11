@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className={style.navbar}>
       <div className={style.hamburgerMenuContainer}>
         <GiHamburgerMenu 
-          size={25} 
+          size={45} 
           className={style.hamburgerMenu} 
           onClick={toggleMenu} 
         />

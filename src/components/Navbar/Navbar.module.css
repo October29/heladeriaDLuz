@@ -1,5 +1,6 @@
 .navbar {
   width: 100%;
+  
   padding: 1rem 5%;
 }
 
@@ -80,19 +81,22 @@
   height: 6rem;
   margin: 0 auto;
   background-image: url(../../assets/cartel.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(5px 5px 0px #220d0d48);
 }
 
   .hamburgerMenu {
     display: block;
-    margin: 3.6rem auto;
+    width: 3rem;
+    margin: 2.7rem auto 0;
+    padding: 0 1rem 0 0;
     color: white;
   }
 
 .itemsContainer {
   position: absolute;
-  top: 50%;
+  top: 120%;
   left: -80%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
