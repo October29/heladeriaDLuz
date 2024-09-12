@@ -1,13 +1,10 @@
-import style from "./Home.module.css";
 
-const Home = ({ isMenuOpen }) => {
-  const inlineStyle = {
-    filter: isMenuOpen ? "blur(5px)" : "none",
-    pointerEvents: isMenuOpen ? "none" : "auto"
-  };
+
+const Home = ({isMenuOpen ,styles}) => {
+  
 
   return (
-    <div className={style.mainClass} style={inlineStyle}>
+    <div style={styles}>
       <h1>Home</h1>
     </div>
   );

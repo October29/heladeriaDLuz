@@ -4,6 +4,7 @@
   border: #c22942 solid 2px;
   border-radius: 1rem;
   box-shadow: 2px 5px 0px #c22942;
+  z-index: -1;
 }
 
 .imageContainer {

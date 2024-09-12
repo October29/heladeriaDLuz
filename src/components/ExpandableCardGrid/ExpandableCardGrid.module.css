@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.button {
+  background-color: #2ddad1;
+  color: rgb(27, 7, 7);
+  border: #056f8f solid 3px;
+  border-radius: 10rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 2px 5px 0px #056f8f;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #d7fcff;
+}
+
+.chevron {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  margin-left: 8px;
+}
+
+.chevron.down {
+  border-top: 6px solid #056f8f;
+}
+
+.chevron.up {
+  border-bottom: 6px solid #056f8f;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}

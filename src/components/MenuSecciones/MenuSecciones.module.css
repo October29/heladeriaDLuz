@@ -1,5 +1,5 @@
 .menuSecciones {
-  padding: 1rem 8rem;
+  padding: 1rem 3rem;
 }
 
 .tittleSection {
@@ -12,4 +12,10 @@
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .menuSecciones {
+    padding: 1rem;
+  }
 }

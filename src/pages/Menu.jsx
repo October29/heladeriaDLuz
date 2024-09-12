@@ -1,10 +1,10 @@
-import MenuCard from "../components/MenuCard/MenuCard";
 import MenuSecciones from "../components/MenuSecciones/MenuSecciones";
 
-const Menu = () => {
+
+const Menu = ({style}) => {
 
   return (
-    <div>
+    <div style={style}>
     <h1>Menu</h1>
     <MenuSecciones />
     </div>
