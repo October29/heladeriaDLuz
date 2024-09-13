@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Header.module.css"
-import logo from "../../assets/logo.svg"
+import logo from "../../assets/logo.png"
 import Navbar from "../Navbar/Navbar";
 const Header = ({isMenuOpen, setIsMenuOpen}) => {
 

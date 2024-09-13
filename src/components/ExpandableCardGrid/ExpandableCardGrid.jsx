@@ -61,7 +61,9 @@ const ExpandableCardGrid = ({ productos, initialVisibleCount = 5 }) => {
     <div className={styles.container} ref={gridRef}>
       <div className={styles.grid}>
         {productos.slice(0, visibleCount).map((producto, index) => (
-          <MenuCard key={index} {...producto} />
+          <div className={styles.cardContent} key={index}>
+            <MenuCard {...producto} />
+          </div>
         ))}
       </div>
       {productos.length > initialVisibleCount && (

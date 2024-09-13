@@ -10,7 +10,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 20px;
+  gap: 16px;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: center;
 }
 
 .buttonContainer {
@@ -55,7 +60,10 @@
 
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(156px, 1fr));
+    grid-template-rows: auto;
+  }
+  .container {
+    padding: 0;
   }
 }

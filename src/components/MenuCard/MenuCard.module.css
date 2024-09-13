@@ -18,12 +18,13 @@
 
 .infoContainer {
   width: 220px;
-  padding: 1rem;
+  padding: 0.4rem 0.4rem;
 }
 
 
 .productName {
-  font-size: 0.9rem;
+  font-family: Itim, sans-serif;
+  font-size: 1rem;
   text-align: center;
   color: #c22942;
   margin: 0 0 0.2rem 0;
@@ -46,6 +47,8 @@
 }
 
 .price {
+  position: absolute;
+  top: 0.4rem;
   width: fit-content;
   padding: 0.2rem 1rem;
   margin: 0 auto 0.7rem;
@@ -55,4 +58,11 @@
   font-size: 1rem;
   color: #ffffff;
   background-color: #c22942;
+}
+
+@media (max-width: 768px) {
+  .card {
+    transform: scale(0.7);
+  }
+
 }

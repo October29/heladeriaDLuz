@@ -5,17 +5,18 @@
 .tittleSection {
   font-family: Itim, sans-serif;
   font-size: 3rem;
+  color: #ffbd72;
+  margin-top: 1rem;
 }
 
 .productContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
   .menuSecciones {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 }
